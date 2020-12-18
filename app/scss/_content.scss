@@ -1,0 +1,128 @@
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  .inner-header {
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: 40px 0 40px 0;
+    height: 300px;
+    background: #1f1f1f;
+    border-radius: 20px;
+
+    .info {
+      align-items: center;
+      h1 {
+        color: $title-color;
+        font-weight: $font-bold;
+        transition: color 0.3s ease-in;
+        cursor: pointer;
+      }
+
+      h1:hover {
+        color: $first-color-alt;
+      }
+
+      h4 {
+        display: flex;
+        margin: 5px 0 5px 0;
+        font-weight: $font-medium;
+      }
+    }
+
+    .profile {
+      width: 420px;
+      clip-path: circle();
+    }
+
+    .banner {
+      padding-left: 80px;
+      width: 560px;
+      z-index: 0;
+    }
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 100px;
+  .inner-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    .main-content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+      width: 76%;
+      height: 800px;
+      background: #1f1f1f;
+      border-radius: 20px;
+      text-align: left;
+      
+      .text {
+        margin: 0px 24px;
+      }
+    }
+    .side-links {
+      z-index: 1;
+      width: 22%;
+      height: 800px;
+      background: #5a38fd;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      .inner-links {
+        padding-top: 150px;
+        text-align: center;
+        li {
+          padding: 15px 0;
+          font-size: 18px;
+          a {
+            color: white;
+            transition: color 0.3s ease-in;
+          }
+          a:hover {
+            color: #978ccf;
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer {
+  display: block;
+  overflow: hidden;
+  width: 100vw;
+  padding: 70px 0;
+  background-color: #1f1f1f;
+  .inner-footer {
+    margin: 0 auto;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    .footer-links {
+      li {
+        padding: 8px 0;
+      }
+      h1 {
+        color: $title-color;
+      }
+      a {
+        color: white;
+        transition: color 0.3s ease-in;
+      }
+      a:hover {
+        color: $first-color-alt;
+      }
+    }
+  }
+}

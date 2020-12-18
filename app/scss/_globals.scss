@@ -1,0 +1,42 @@
+/*========== BASE ==========*/
+
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: $body-font;
+    font-size: $normal-font-size;
+    background-color: $body-color;
+    color: $text-color;
+    line-height: 1.6;
+}
+
+h1,h2,h3,h4,ul,p{
+    margin: 0;  
+}
+
+ul,li{
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+span {
+    color: $title-color;
+}

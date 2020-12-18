@@ -1,0 +1,40 @@
+/*===== GOOGLE FONTS =====*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+/*===== VARIABLES CSS =====*/
+$header-height: 3rem;
+
+/*========== Colors ==========*/
+$first-color: #5222D0;
+$first-color-alt: #6a44cc;
+$title-color: #5222D0;
+$text-color: #ffffff;
+$body-color: #fbfefd;
+$container-color: #ffffff;
+
+/*========== Font and typography ==========*/
+$body-font: "Work Sans", sans-serif;
+$biggest-font-size: 2.25rem;
+$h1-font-size: 1.5rem;
+$h2-font-size: 1.25rem;
+$h3-font-size: 1rem;
+$normal-font-size: 0.938rem;
+$small-font-size: 0.813rem;
+$smaller-font-size: 0.75rem;
+
+/*========== Font weight ==========*/
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-bold: 700;
+
+/*========== Margenes ==========*/
+$mg-1: 0.5rem;
+$mg-2: 1rem;
+$mg-3: 1.5rem;
+$mg-4: 2rem;
+$mg-5: 2.5rem;
+$mg-6: 3rem;
+
+/*========== z index ==========*/
+$z-tooltip: 10;
+$z-fixed: 100;
