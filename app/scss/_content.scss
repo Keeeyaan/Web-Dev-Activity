@@ -1,3 +1,52 @@
+.login-open {
+  position: absolute;
+  padding: 150px 130px;
+  background-color: $title-color;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+  border-radius: 5px;
+  visibility: hidden;
+  text-align: center;
+  .form-control {
+    padding: 10px 0px;
+  }
+  .box input[type="text"],.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    border: 3px solid white;
+    padding: 14px 10px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    text-align: center;
+  }
+  .box input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid white;
+    padding: 10px 24px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+}
+.overlay {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  background-image: $container-color;
+  opacity: 0.4;
+  z-index: 2;
+}
 .header {
   display: flex;
   justify-content: center;
@@ -63,7 +112,7 @@
       background: #1f1f1f;
       border-radius: 20px;
       text-align: left;
-      
+
       .text {
         margin: 0px 24px;
       }
@@ -77,17 +126,28 @@
       display: flex;
       justify-content: center;
       .inner-links {
-        padding-top: 150px;
+        padding-top: 100px;
         text-align: center;
-        li {
-          padding: 15px 0;
-          font-size: 18px;
-          a {
-            color: white;
-            transition: color 0.3s ease-in;
-          }
-          a:hover {
-            color: #978ccf;
+        .login,
+        .signup {
+          background-color: white;
+          padding: 5px 10px;
+          border: 2px solid white;
+          border-radius: 30px;
+          color: #5a38fd;
+        }
+        .links {
+          padding-top: 100px;
+          li {
+            padding: 15px 0;
+            font-size: 18px;
+            a {
+              color: white;
+              transition: color 0.3s ease-in;
+            }
+            a:hover {
+              color: #978ccf;
+            }
           }
         }
       }

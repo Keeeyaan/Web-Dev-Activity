@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="/dist/style.css">
+
+    <title>My Site | Home</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <div class="inner-header">
+            <img src="/images/profile.jpg" class="profile" alt="Profile">
+            <div class="info">
+                <h1>Kean Jieden Villaflor</h1>
+                <h4>
+                    <box-icon name='pencil' color='#ffffff'></box-icon> Web Development Activity
+                </h4>
+                <h4>
+                    <box-icon name='mail-send' color='#ffffff'></box-icon> Keanjieden@gmail.com
+                </h4>
+                <h4>
+                    <box-icon name='map' color='#ffffff'></box-icon> Basak Pardo, Cebu City
+                </h4>
+            </div>
+
+            <div class="image-header">
+                <img class="banner" src="/images/pixeltrue-web-development-1.png" alt="Image">
+            </div>
+        </div>
+    </header>
+
+    <section class="content-login">
+        <div class="inner-content">
+            <div class="main-content">           
+                <div class="text">
+                    <form action="signup.html" class="box">
+                        <label for="firstname">FirstName</label>
+                        <input type="text" class="firstname" placeholder="First Name">
+                        <label for="middlename">Middle Name</label>
+                        <input type="text" class="middlename" placeholder="Middle Name">
+                        <label for="lastname">Last Name</label>
+                        <input type="text" class="lastname" placeholder="Last Name">
+                        <label for="email">Email</label>
+                        <input type="email" class="email" placeholder="Your Email">
+                        <label for="password">Password</label>
+                        <input type="password" class="password">
+                        <label for="homeaddress">Address</label>
+                        <input type="text" class="homeaddress" placeholder="Your Address">
+                        <label for="gender">Gender</label>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">Female</label><br>
+                    </form>
+                    <form action="signup.html" class="box">
+                        <label for="phone">Enter your phone number:</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{11}">
+                        <label for="birthday">Birthday</label>
+                        <input type="date" id="birthday" name="birthday">
+                        <label for="cityaddress">City</label>
+                        <input type="text" class="cityaddress" placeholder="City">
+                        <label for="zipcode">Zip Code</label>
+                        <input type="text" class="zipcode" placeholder="Zip Code">
+                        <label for="birthday">Province</label>
+                        <input type="text" class="brithday" placeholder="Province">
+                        <label for="hobbies">Hobbies</label>
+                        <input type="text" class="hobbies" placeholder="Hobbies">
+                        <button type="submit" value="Submit">Submit</button>
+                        <button type="reset" value="Reset">Reset</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer" id="footer">
+        <div class="inner-footer">
+            <div class="footer-links">
+                <h1>Footer Links</h1>
+                <li><a href="https://mysamplesite2.netlify.app/aboutme.html" target="_blank">About Me</a></li>
+                <li><a href="https://mysamplesite2.netlify.app/gallery.html" target="_blank">My Image Gallery</a></li>
+                <li><a href="https://mysamplesite2.netlify.app/contact.html" target="_blank">Contacts</a></li>
+                <hr>
+                <p>© 2020 Kean Jieden Villaflor</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/app/js/script.js"></script>
+</body>
+
+</html>
